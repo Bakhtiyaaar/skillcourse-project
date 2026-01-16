@@ -29,7 +29,7 @@ SkillCourse — это современный многостраничный в�
 
         Многофайловая архитектура: Разделение на reset.css, base.css, layout.css и components.css.
         
-Инструкция по установке
-    1. Склонируйте репозиторий: 
-       ```bash
-       git clone [https://github.com/Bakhtiyaaar/skillcourse-project.git](https://github.com/Bakhtiyaaar/skillcourse-project.git)
+### Инструкция по установке
+1. Склонируйте репозиторий: 
+   ```bash
+   git clone [https://github.com/Bakhtiyaaar/skillcourse-project.git](https://github.com/Bakhtiyaaar/skillcourse-project.git)
