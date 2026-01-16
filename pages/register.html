@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация — SkillCourse</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/components.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__wrapper">
+            <a href="../index.html" class="logo">Skill<span>Course</span></a>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li><a href="../index.html" class="nav__link">Главная</a></li>
+                    <li><a href="catalog.html" class="nav__link">Каталог</a></li>
+                    <li><a href="about.html" class="nav__link">О платформе</a></li>
+                    <li><a href="contacts.html" class="nav__link">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="header__auth">
+                <a href="register.html" class="btn btn--outline btn--sm">Войти</a>
+                <a href="register.html" class="btn btn--sm active-btn">Регистрация</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="auth-page">
+        <section class="section">
+            <div class="container">
+                <div class="auth-container">
+                    <div class="auth-box">
+                        <div class="section-header center">
+                            <h2>Создать аккаунт</h2>
+                            <p>Присоединяйтесь к сообществу будущих IT-специалистов</p>
+                        </div>
+                        
+                        <form class="auth-form">
+                            <div class="form-group">
+                                <label for="reg-name">Полное имя</label>
+                                <input type="text" id="reg-name" class="form-input" placeholder="Иван Иванов" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="reg-email">Электронная почта</label>
+                                <input type="email" id="reg-email" class="form-input" placeholder="mail@example.kz" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="reg-pass">Пароль</label>
+                                <input type="password" id="reg-pass" class="form-input" placeholder="••••••••" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" required>
+                                    <span>Я согласен с <a href="#">правилами платформы</a></span>
+                                </label>
+                            </div>
+
+                            <button type="submit" class="btn btn--full">Зарегистрироваться</button>
+                        </form>
+
+                        <div class="auth-footer">
+                            <p>Уже есть профиль? <a href="#">Войти в систему</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__grid">
+            <div class="footer__info">
+                <a href="../index.html" class="logo footer__logo">Skill<span>Course</span></a>
+                <p>Ваш путь в мир современных технологий начинается здесь.</p>
+            </div>
+            <div class="footer__nav">
+                <h4>Навигация</h4>
+                <ul class="footer__list">
+                    <li><a href="catalog.html">Все курсы</a></li>
+                    <li><a href="about.html">О платформе</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="footer__contacts">
+                <h4>Наши контакты</h4>
+                <p>📍 г. Астана, ул. Достык, 12</p>
+                <p>📞 +7 (707) 123-45-67</p>
+                <p>✉️ info@skillcourse.kz</p>
+            </div>
+        </div>
+        <div class="container footer__bottom">
+            <p>&copy; 2026 SkillCourse. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+</html>

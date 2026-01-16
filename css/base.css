@@ -1,0 +1,48 @@
+:root {
+    --bg-main: #ffffff;         
+    --bg-secondary: #f4f6f9;     
+    --text-main: #1d1d1f;         
+    --text-muted: #6e6e73;       
+    --accent: #0056d2;         
+    --accent-hover: #0041a3;
+    --border-color: #e1e5eb;     
+    --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    --container-width: 1200px;
+    --radius: 16px;             
+    --shadow: 0 10px 30px rgba(0, 0, 0, 0.08); 
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--bg-main);
+    color: var(--text-main);
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color: #000;
+}
+
+h1 { font-size: 3rem; letter-spacing: -0.02em; }
+h2 { font-size: 2.25rem; }
+h3 { font-size: 1.5rem; }
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Акцент на тексте */
+.text-accent { color: var(--accent); }

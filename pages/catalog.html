@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillCourse — Каталог курсов</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/components.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__wrapper">
+            <a href="../index.html" class="logo">Skill<span>Course</span></a>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li><a href="../index.html" class="nav__link">Главная</a></li>
+                    <li><a href="catalog.html" class="nav__link active">Каталог</a></li>
+                    <li><a href="about.html" class="nav__link">О платформе</a></li>
+                    <li><a href="contacts.html" class="nav__link">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="header__auth">
+                <a href="register.html" class="btn btn--outline btn--sm">Войти</a>
+                <a href="register.html" class="btn btn--sm">Регистрация</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section section--bg">
+            <div class="container">
+                <div class="section-header">
+                    <h1>Каталог программ</h1>
+                    <p>Найдите идеальный курс для вашего карьерного роста</p>
+                </div>
+                
+                <div class="catalog-layout">
+    <aside class="sidebar">
+        <div class="filter-group">
+            <h4>Направление</h4>
+            <label class="filter-item"><input type="checkbox" checked> Все курсы</label>
+            <label class="filter-item"><input type="checkbox"> Программирование</label>
+            <label class="filter-item"><input type="checkbox"> Дизайн</label>
+            <label class="filter-item"><input type="checkbox"> Маркетинг</label>
+            <label class="filter-item"><input type="checkbox"> Аналитика</label>
+        </div>
+    </aside>
+
+    <div class="catalog-main">
+        <div class="grid-3">
+            <article class="card">
+                <img src="../images/course-web1.png" alt="Web" class="card__img">
+                <div class="card__body">
+                    <span class="card__tag">Frontend</span>
+                    <h3 class="card__title">Frontend-разработчик</h3>
+                    <div class="card__footer"><span class="card__price">130 000 ₸</span></div>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="../images/course-web.jpg" alt="Python" class="card__img">
+                <div class="card__body">
+                    <span class="card__tag">Backend</span>
+                    <h3 class="card__title">Python-разработчик</h3>
+                    <div class="card__footer"><span class="card__price">120 000 ₸</span></div>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="../images/course-design.webp" alt="Design" class="card__img">
+                <div class="card__body">
+                    <span class="card__tag">Дизайн</span>
+                    <h3 class="card__title">UI/UX Дизайнер</h3>
+                    <div class="card__footer"><span class="card__price">140 000 ₸</span></div>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="../images/course-web2.jpg" alt="Data" class="card__img">
+                <div class="card__body">
+                    <span class="card__tag">Аналитика</span>
+                    <h3 class="card__title">Data Scientist</h3>
+                    <div class="card__footer"><span class="card__price">180 000 ₸</span></div>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="../images/course-web3.jpg" alt="Java" class="card__img">
+                <div class="card__body">
+                    <span class="card__tag">Backend</span>
+                    <h3 class="card__title">Java-разработчик</h3>
+                    <div class="card__footer"><span class="card__price">160 000 ₸</span></div>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="../images/course-marketing.jpg" alt="Marketing" class="card__img">
+                <div class="card__body">
+                    <span class="card__tag">Маркетинг</span>
+                    <h3 class="card__title">Интернет-маркетолог</h3>
+                    <div class="card__footer"><span class="card__price">110 000 ₸</span></div>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="../images/course-web4.png" alt="iOS" class="card__img">
+                <div class="card__body">
+                    <span class="card__tag">Разработка</span>
+                    <h3 class="card__title">iOS-разработчик</h3>
+                    <div class="card__footer"><span class="card__price">155 000 ₸</span></div>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="../images/course-marketing2.jpg" alt="Management" class="card__img">
+                <div class="card__body">
+                    <span class="card__tag">Менеджмент</span>
+                    <h3 class="card__title">Project Manager</h3>
+                    <div class="card__footer"><span class="card__price">145 000 ₸</span></div>
+                </div>
+            </article>
+        </div>
+
+        <div class="catalog-more" style="text-align: center; margin-top: 50px;">
+            <button class="btn btn--outline">Показать еще</button>
+        </div>
+    </div>
+</div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="section-header center">
+                    <h2>Изучение отдельного языка</h2>
+                    <p>Выберите интересующий вас язык для глубокого погружения</p>
+                </div>
+                <div class="languages-grid">
+                    <div class="lang-card"><img src="../images/langs/js.png" alt="JS"><h4>JavaScript</h4></div>
+                    <div class="lang-card"><img src="../images/langs/py.webp" alt="Python"><h4>Python</h4></div>
+                    <div class="lang-card"><img src="../images/langs/java.jpg" alt="Java"><h4>Java</h4></div>
+                    <div class="lang-card"><img src="../images/langs/c++.webp" alt="C++"><h4>C++</h4></div>
+                    <div class="lang-card"><img src="../images/langs/c.png" alt="C#"><h4>C#</h4></div>
+                    <div class="lang-card"><img src="../images/langs/ts.png" alt="TS"><h4>TypeScript</h4></div>
+                    <div class="lang-card"><img src="../images/langs/php.png" alt="PHP"><h4>PHP</h4></div>
+                    <div class="lang-card"><img src="../images/langs/swift.png" alt="Swift"><h4>Swift</h4></div>
+                    <div class="lang-card"><img src="../images/langs/kotlin.png" alt="Kotlin"><h4>Kotlin</h4></div>
+                    <div class="lang-card"><img src="../images/langs/go.png" alt="Go"><h4>Go</h4></div>
+                    <div class="lang-card"><img src="../images/langs/rust.png" alt="Rust"><h4>Rust</h4></div>
+                    <div class="lang-card"><img src="../images/langs/ruby.png" alt="Ruby"><h4>Ruby</h4></div>
+                    <div class="lang-card"><img src="../images/langs/sql.webp" alt="SQL"><h4>SQL</h4></div>
+                    <div class="lang-card"><img src="../images/langs/dart.webp" alt="Dart"><h4>Dart</h4></div>
+                    <div class="lang-card"><img src="../images/langs/scala.png" alt="Scala"><h4>Scala</h4></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--bg">
+            <div class="container">
+                <div class="section-header center">
+                    <h2>Часто задаваемые вопросы</h2>
+                </div>
+                <div class="faq-list">
+                    <details class="faq-item">
+                        <summary>Нужны ли начальные знания?</summary>
+                        <p>Наши курсы рассчитаны на новичков, мы обучаем с самых основ.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary>Выдаете ли вы сертификат?</summary>
+                        <p>Да, после успешного прохождения обучения и защиты финального проекта.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary>Помогаете ли вы с трудоустройством?</p>
+                        <p>У нас есть карьерный центр, который помогает составить резюме и подготовиться к интервью.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__grid">
+            <div class="footer__info">
+                <a href="../index.html" class="logo footer__logo">Skill<span>Course</span></a>
+                <p>Ваш путь в мир современных технологий начинается здесь.</p>
+            </div>
+            <div class="footer__nav">
+                <h4>Навигация</h4>
+                <ul class="footer__list">
+                    <li><a href="catalog.html">Все курсы</a></li>
+                    <li><a href="about.html">О платформе</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="footer__contacts">
+                <h4>Контакты</h4>
+                <p>📍 г. Астана, л. Достык, 12</p>
+                <p>📞 +7 (777) 123-45-67</p>
+                <p>✉️ info@skillcourse.kz</p>
+            </div>
+        </div>
+        <div class="container footer__bottom">
+            <p>&copy; 2026 SkillCourse. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+</html>
